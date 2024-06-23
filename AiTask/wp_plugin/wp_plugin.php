@@ -1,10 +1,4 @@
 <?php
-/*
-Plugin Name: AI Chatbot Plugin
-Description: Integration of AI Chatbot with RAG and Chain of Thought
-Version: 1.0
-Author: Your Name
-*/
 
 function enqueue_chatbot_assets() {
     wp_enqueue_script('chatbot-script', plugins_url('/js/chatbot.js', __FILE__), array('jquery'), '1.0', true);
